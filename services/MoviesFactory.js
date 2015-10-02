@@ -21,7 +21,7 @@ nickFlix.factory('MoviesFactory', function MoviesFactory() {
     factory.reviews.push({
       reviewTitle: factory.reviewTitle,
       reviewBody: factory.reviewBody,
-      id: factory.reviews.length + 1
+      reviewId: factory.reviews.length + 1
     });
     factory.reviewTitle = null;
     factory.reviewBody = null;
