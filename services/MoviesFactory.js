@@ -1,6 +1,10 @@
 nickFlix.factory('MoviesFactory', function MoviesFactory() {
   var factory = {};
-  factory.reviews = [];
+  factory.reviews = [
+    {reviewTitle: "The Outsiders",
+     reviewBody: "One of the best movies ever!!",
+   },
+  ];
 
 
 
