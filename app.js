@@ -1,6 +1,6 @@
 var nickFlix = angular.module('nickFlix', ['ui.router']);
 
-courseRoster.config(function($stateProvider, $urlRouterProvider) {
+nickFlix.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider.state('home', {
     url: "",
