@@ -14,4 +14,18 @@ nickFlix.config(function($stateProvider, $urlRouterProvider) {
       },
     }
   });
+
+  $stateProvider.state('reviews', {
+    url: "/reviews",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl',
+      },
+      'body': {
+        templateUrl: "partials/reviews.html",
+        controller: "ReviewsCtrl"
+      },
+    }
+  });
 });
