@@ -2,7 +2,7 @@
   <div class="col-md-6">
     <ul>
       <li ng-repeat="item in reviews">
-        <a ui-sfre="reviews({ reviewId: item.id})">{{ item.reviewTitle }}</a>
+        <a ui-sref="reviews({ reviewId: item.id})">{{ item.reviewTitle }}</a>
       </li>
     </ul>
   </div>
@@ -22,5 +22,5 @@
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
-  </div>  
+  </div>
 </div>
