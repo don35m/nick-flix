@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: #F2F2F2;
 }
 
 .header {
@@ -24,10 +24,15 @@ color: gray;
 
 }
 
+.don {
+  padding-top: 100px;
+
+}
+
 .enter-btn button {
   text-color: black;
 }
 
- .reviewId {
+ /*.reviewId {
    padding-top: 50px;
- }
+ }*/
