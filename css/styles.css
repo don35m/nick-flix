@@ -1,4 +1,33 @@
-.header {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 3px;
+body {
+  background-color: lightgray;
 }
+
+.header {
+  display: inline-block;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  font-family: Verdana,Geneva,sans-serif;
+  font-weight: 900;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header h4 {
+color: gray;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 200px;
+
+}
+
+.enter-btn button {
+  text-color: black;
+}
+
+ .reviewId {
+   padding-top: 50px;
+ }
