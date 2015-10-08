@@ -1,11 +1,7 @@
-body {
-  background-color: #F2F2F2;
-}
-
-.header {
+.header{
   display: inline-block;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-family: Verdana,Geneva,sans-serif;
   font-weight: 900;
 }
@@ -14,8 +10,8 @@ body {
   text-align: center;
 }
 
-.header h4 {
-color: gray;
+.header h3 {
+color:gold;
 }
 
 .welcome {
@@ -30,9 +26,21 @@ color: gray;
 }
 
 .enter-btn button {
-  text-color: black;
+  color: black;
 }
 
- /*.reviewId {
-   padding-top: 50px;
- }*/
+ .night {
+  background-color: black;
+  color: gray;
+}
+.night input {
+  background-color: gray;
+  color: black;
+}
+.night textarea {
+  background-color: gray;
+  color: black;
+}
+.night .btn-default {
+  background-color: gray;
+}
